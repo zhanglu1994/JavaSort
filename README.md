@@ -29,6 +29,7 @@
 算法演示动图如下
 
 ![image](https://github.com/zhanglu1994/JavaSort/blob/master/app/photo/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.gif)
+
 算法代码如下：
 
 ![image](https://github.com/zhanglu1994/JavaSort/blob/master/app/photo/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0.png)
