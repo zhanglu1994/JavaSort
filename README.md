@@ -34,5 +34,15 @@
 
 ![image](https://github.com/zhanglu1994/JavaSort/blob/master/app/photo/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0.png)
 
+3.选择排序法：
+原理：选择排序是一种简单直观的排序算法，无论什么数据进去都是 O(n²) 的时间复杂度。所以用到它的时候，数据规模越小越好。
+实现思路：1.首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置 2.再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。3.重复第二步，直到所有元素均排序完毕。
+
+算法动态演示图如下
+![image](https://github.com/zhanglu1994/JavaSort/blob/master/app/photo/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F.gif)
+
+代码实现如下图
+![image](https://github.com/zhanglu1994/JavaSort/blob/master/app/photo/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0.png)
+
 
 
