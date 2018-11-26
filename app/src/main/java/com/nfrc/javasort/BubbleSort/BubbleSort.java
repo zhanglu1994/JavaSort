@@ -7,7 +7,7 @@ package com.nfrc.javasort.BubbleSort;
 public class BubbleSort {
 
 
-    public int[] bubbleSore(int[] a){
+    public static int[] bubbleSore(int[] a){
         int max = a.length - 1;
         for (int i = 0;i < max;i++){
             for (int j = 0;j < max;j++){

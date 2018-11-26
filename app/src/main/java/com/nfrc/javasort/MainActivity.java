@@ -6,10 +6,9 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.nfrc.javasort.BubbleSort.BubbleSort;
+import com.nfrc.javasort.InsertionSort.InsertionSort;
 
 public class MainActivity extends AppCompatActivity {
-
-    TextView tv_main;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,11 +18,18 @@ public class MainActivity extends AppCompatActivity {
 
         int[] a = {15000,21,0,3,9,5,1,2,10,100,30,55};
 
-        BubbleSort bubbleSort = new BubbleSort();
-        int[]b = bubbleSort.bubbleSore(a);
+
+//        int[]b = BubbleSort.bubbleSore(a);        //冒泡法
+
+
+
+        int[]b = InsertionSort.insertSort(a);       //插入法
+
+
         for (int i = 0;i < b.length;i++){
             Log.e("AAA",b[i] + "");
         }
+
 
     }
 }
