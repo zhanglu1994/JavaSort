@@ -17,16 +17,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        int[] a = {15000,21,0,3,9,5,1,2,10,100,30,55};
+        int[] a = {15000,21,0,3,9,5,1,2,10,100,30,55,900,11,1000000000,845,123456,98754};
 
 
-//        int[]b = BubbleSort.bubbleSore(a);        //冒泡法
+        int[]b = BubbleSort.bubbleSore(a);        //冒泡法
 
 
 
 //        int[]b = InsertionSort.insertSort(a);       //插入法
 
-        int[]b = SelectionSort.selectSort(a);       //选着排序法
+//        int[]b = SelectionSort.selectSort(a);       //选着排序法
 
 
         for (int i = 0;i < b.length;i++){
@@ -35,4 +35,21 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    void bubblesort(int arrayVal[],int length)
+    {
+        int i,j;
+        int temp;
+
+        for(i=0;i<length-1;i++)
+            for(j=i+1;j<length;j++)
+                if(arrayVal[i]>arrayVal[j])
+                {
+                    //置换位置
+                    temp=arrayVal[i];
+                    arrayVal[i]=arrayVal[j];
+                    arrayVal[j]=temp;
+                }
+    }
+
 }
