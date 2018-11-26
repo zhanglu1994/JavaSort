@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.nfrc.javasort.BubbleSort.BubbleSort;
 import com.nfrc.javasort.InsertionSort.InsertionSort;
+import com.nfrc.javasort.SelectionSort.SelectionSort;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        int[]b = InsertionSort.insertSort(a);       //插入法
+//        int[]b = InsertionSort.insertSort(a);       //插入法
+
+        int[]b = SelectionSort.selectSort(a);       //选着排序法
 
 
         for (int i = 0;i < b.length;i++){
